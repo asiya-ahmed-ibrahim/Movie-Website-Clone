@@ -1,16 +1,87 @@
-# React + Vite
+# Netflix Clone Project 🎬
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A Netflix clone project built by following guided video lessons. Features a complete streaming platform layout with header, banner, movie rows/cards, and footer.
 
-Currently, two official plugins are available:
+## Project Goal
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Build a Netflix-like streaming interface with:
+- Header navigation
+- Hero banner section
+- Movie rows with scrollable cards
+- Footer with links
+- Movie/API integration
+- Responsive design
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🎬 Movie catalog with cards
+- 📺 Featured content banner
+- 🔄 Scrollable movie rows
+- 📱 Responsive layout
+- 🎨 Netflix-style design
+- 🔗 API integration
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:** HTML5, CSS3, JavaScript
+- **API:** Movie database integration
+- **Design:** Following provided design references
+
+## Installation
+
+```bash
+# Clone repository
+git clone https://github.com/asiya-ahmed-ibrahim/Movie-Website-Clone.git
+cd Movie-Website-Clone
+
+# Open in browser
+open index.html
+
+# Or use local server
+python -m http.server 8000
+```
+
+## Project Structure
+
+```
+Movie-Website-Clone/
+├── index.html          # Main layout
+├── styles.css          # Netflix-style styling
+├── script.js           # JavaScript functionality
+├── assets/
+│   ├── images/         # Movie posters & banner
+│   └── icons/
+└── README.md
+```
+
+## Completion Criteria
+
+✅ Header with navigation
+✅ Featured banner section
+✅ Movie rows with scrollable cards
+✅ Footer with links
+✅ API movie integration
+✅ Clean, responsive design
+✅ Runnable local setup
+
+## Features Implemented
+
+- Movie browsing interface
+- Search functionality
+- Genre filtering
+- Responsive mobile design
+- Smooth animations
+
+## Resources
+
+- Official design references from Week 1
+- Movie database API integration
+- Resource package images
+
+## License
+
+MIT
+
+---
+
+⭐ Netflix clone learning project!
